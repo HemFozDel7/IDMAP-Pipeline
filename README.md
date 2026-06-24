@@ -58,12 +58,3 @@ app.py                  ← Streamlit entry point + sidebar router
 └── .streamlit/
     └── config.toml     ← Theme configuration
 ```
-
-## Pipeline Phases
-
-| Phase | Description | HITL Gate |
-|-------|-------------|-----------|
-| Phase 1 | Profile CSVs → generate Bronze STTM | ✅ Bronze Review |
-| Phase 2 | Bronze execution → generate Silver STTM | ✅ Silver Review |
-| Phase 3 | Silver execution → generate Gold STTM | ✅ Gold Review |
-| Phase 4 | Gold execution → Executive HTML report | ❌ Auto-complete |
